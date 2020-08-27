@@ -24,6 +24,8 @@
 
 ![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/3.jpg)
 
+![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/4.jpg)
+
 参考：https://www.jianshu.com/p/781cde3d5f3d
 
 
@@ -31,7 +33,8 @@
 
 > FFM算法将问题定义为分类问题，损失函数采用的是logistic loss，同时加入了正则项，具体如下：
 
-![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/4.jpg)
+![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/5.jpg)
+
 
 **注意**：此处采用logistic loss的label定义为1和-1，不是常用的1和0，具体可参考：https://www.cnblogs.com/ljygoodgoodstudydaydayup/p/6340129.html
 
@@ -39,11 +42,9 @@
 
 > 论文试验了隐向量维度k、正则系数<a href="https://www.codecogs.com/eqnedit.php?latex=\lambda" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\lambda" title="\lambda" /></a>和学习率<a href="https://www.codecogs.com/eqnedit.php?latex=\eta" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\eta" title="\eta" /></a>对FFM模型的影响，具体如下：
 
-![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/5.jpg)
+![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/6.jpg)
 
 > 论文在多个数据集上对比了模型的效果，如下：
-
-![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/6.jpg)
 
 ![image](https://github.com/ShaoQiBNU/Field-awareFactorizationMachines/blob/master/img/7.jpg)
 
